@@ -9,7 +9,7 @@ import urllib.request
 from lxml import etree
 
 PACKAGE_URL = 'http://repository.spotify.com/dists/testing/non-free/binary-amd64/Packages'
-REPO_URL = 'https://repository-origin.spotify.com/'
+REPO_URL = 'http://repository.spotify.com/'
 MANIFEST = 'com.spotify.Client.json'
 APPDATA = 'com.spotify.Client.appdata.xml'
 
